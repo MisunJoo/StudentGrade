@@ -36,6 +36,9 @@ public class UI {
         for(int i = 0; i <list.size(); i++){
             System.out.println(list.get(i).getName() +"\t"+list.get(i).getKorean() +"\t"+
                     list.get(i).getEnglish() + "\t" + list.get(i).getMath() + "이네요....");
+
+            //for (Student student : studentList){
+            //sout(student.getName());
         }
     }
 
